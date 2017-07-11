@@ -1,0 +1,69 @@
+/*
+    Custom CSS file for Block2121 specific styles.
+*/
+
+
+/*
+    Page d'accueil, 404 et recherche
+*/
+
+.intro-accueil{
+    text-align: center;
+}
+
+.recherche-accueil{
+    margin: 0 auto;
+}
+
+.recherche-accueil input[type=text],
+.four-oh-four-page input[type=text]{
+    border: 1px solid #555555;
+}
+
+.recherche-accueil .btn-default,
+.four-oh-four-page .btn-default{
+    background-color: #000;
+    font-size: 15px;
+}
+@media (min-width: 768px) { 
+    .recherche-accueil{
+        width: 80%;
+    }
+ }
+@media (min-width: 992px) { 
+    .recherche-accueil{
+        width: 50%;
+    }
+ }
+
+ .titre-categories-recentes{
+    text-align:center;
+    margin: 5% 0; 
+ }
+
+/*
+    Fiche produit
+*/
+
+.zone-details{
+    margin-top: 2%;
+    font-size: 1.5em;
+}
+
+.zone-details .label{
+    display: block;
+    margin: 2% 0;
+    height: 2%;
+    padding: 5%;
+}
+
+.zone-details i{
+    margin-right: 3%;
+}
+
+.liste-fiche-produit{
+    display: block;
+    margin-top: 2%;
+    text-align:center;
+    font-size: 1.1em;
+}
