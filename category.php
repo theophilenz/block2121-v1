@@ -13,7 +13,10 @@ get_header(); ?>
 	<?php get_template_part( 'content', 'top-search');?>
 		<div class="col-md-8 blog">
 
-		<h1><?php _e("Category:", 'social-magazine' ); ?> <?php single_cat_title(); ?></h1>
+		<div class="panel panel-default">
+			<div class="panel-heading"><h1> <?php single_cat_title(); ?></h1></div>
+			<div class="panel-body"><?php echo category_description() ?></div>
+		</div>
 
 		<?php 
 		// Check if there are any posts to display
@@ -24,7 +27,7 @@ get_header(); ?>
 		// The Loop
 		while ( have_posts() ) : the_post();
 		
-		get_template_part( 'content');
+		get_template_part( 'content', 'categorie');
 		
 		endwhile; ?>
 		

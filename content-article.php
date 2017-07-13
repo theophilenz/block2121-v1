@@ -13,11 +13,14 @@
 		 the_post_thumbnail(); } ?>
 	</div>
 	<div class="col-md-5 panel-primary zone-details">
+		<div>
+			<?php the_favorites_button() ?> <?php the_favorites_count(); ?>
+		</div>
 		<div class="label label-primary">
 			<i class="fa fa-laptop" aria-hidden="true"></i><?php the_field("plateformes_supportees"); ?>
 		</div>
 		<div class="label label-primary">
-			<i class="fa fa-money" aria-hidden="true"></i><?php the_field("prix_produit"); ?>
+			<i class="fa fa-dollar" aria-hidden="true"></i><?php the_field("prix_produit"); ?>
 		</div>
 		<div class="lien-obtenir">
 			<a href="<?php the_field("lien_produit"); ?>" target="_blank" class="label label-default"><i class="fa fa-link" aria-hidden="true"></i>Obtenir</a>
