@@ -22,7 +22,8 @@
 
 .recherche-accueil .btn-default,
 .four-oh-four-page .btn-default{
-    background-color: #000;
+    background-color: #1e73be;
+    color: #fff;
     font-size: 15px;
 }
 @media (min-width: 768px) { 
@@ -68,9 +69,47 @@
     font-size: 1.1em;
 }
 
-/* Catégorie */
+.compteur-favoris{
+    display: inline-block;
+    text-align:center;
+    width: 15%;
+    padding: 1% 0;
+    margin-left: 1%;
+    border-radius: 12%;
+    background-color: #f5f5f5;
+    border: 1px solid #1e73be;
+}
+.bouton-favoris{
+    font-size: .8em;
+}
+.label-black{
+    background-color:#002244;
+}
+.lien{
+    background-color: #1e73be;
+}
+
+/* Catégorie et recherche */
 .bouton-lire-plus{
     font-size: 1.2em;
     display: inline-block;
     color: white;
+}
+
+.bouton-like-page-categorie{
+    font-size: 1.2em;
+    display: inline-block;
+    margin-left: 2%;
+    background-color: #0353A4;
+}
+
+.post-likes{
+    background-color: #0353a4;
+    color: #fff;
+    margin-left: 2%;
+    font-size: 1.2em;
+    border-radius: 5px;
+    padding: 5px 10px;
+    width: 60px;
+    display: inline-block;
 }

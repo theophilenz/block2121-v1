@@ -5,7 +5,6 @@
 ?>
 
 <h1 id="post-<?php the_ID(); ?>" <?php post_class(); ?> title="<?php the_title_attribute(); ?>"><?php the_title(); ?></h1>
-	
 <div class="blog-block single-page">
 	
 	<div class="col-md-7">
@@ -14,16 +13,16 @@
 	</div>
 	<div class="col-md-5 panel-primary zone-details">
 		<div>
-			<?php the_favorites_button() ?> <?php the_favorites_count(); ?>
+			<span class="bouton-favoris"><?php the_favorites_button() ?></span><span class="compteur-favoris"><?php the_favorites_count(); ?></span>
 		</div>
-		<div class="label label-primary">
+		<div class="label label-black">
 			<i class="fa fa-laptop" aria-hidden="true"></i><?php the_field("plateformes_supportees"); ?>
 		</div>
-		<div class="label label-primary">
+		<div class="label label-black">
 			<i class="fa fa-dollar" aria-hidden="true"></i><?php the_field("prix_produit"); ?>
 		</div>
 		<div class="lien-obtenir">
-			<a href="<?php the_field("lien_produit"); ?>" target="_blank" class="label label-default"><i class="fa fa-link" aria-hidden="true"></i>Obtenir</a>
+			<a href="<?php the_field("lien_produit"); ?>" target="_blank" class="label label-black lien"><i class="fa fa-link" aria-hidden="true"></i>Site web officiel</a>
 		</div>
 	</div>
 	<div class="col-md-12">
