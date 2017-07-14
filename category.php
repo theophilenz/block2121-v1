@@ -13,7 +13,7 @@ get_header(); ?>
 	<?php get_template_part( 'content', 'top-search');?>
 		<div class="col-md-8 blog">
 
-		<div class="panel panel-default">
+		<div class="panel panel-default titre">
 			<div class="panel-heading"><h1> <?php single_cat_title(); ?></h1></div>
 			<div class="panel-body"><?php echo category_description() ?></div>
 		</div>

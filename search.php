@@ -12,11 +12,16 @@ get_header(); ?>
 	<div class="container-fluid">
 	<?php get_template_part( 'content', 'top-search');?>
 		<div class="col-md-8 blog">
-			
-			<h1><?php _e('Search Results for ', 'social-magazine' ); ?> <?php echo the_search_query(); ?></h1>
-			
-			<small><?php _e('These are the search results for: ', 'social-magazine' ); ?> <?php echo the_search_query(); ?></small>
-
+			<div class="titre">
+                    <div class="panel panel-primary">
+                        <div class="panel-heading">
+                            <h1><?php _e('Search Results for ', 'social-magazine' ); ?> <?php echo the_search_query(); ?></h1>
+						</div>
+                        <div class="panel-body">
+										<small><?php _e('These are the search results for: ', 'social-magazine' ); ?> <?php echo the_search_query(); ?></small>
+                        </div>
+                    </div>
+                </div>
 	    	<?php if ( have_posts()) :
 		    	
         	while ( have_posts() ) : the_post();

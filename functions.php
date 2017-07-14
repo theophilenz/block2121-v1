@@ -179,8 +179,24 @@ function new_social_magazine_excerpt_more( $more ) {
 }
 add_filter('excerpt_more', 'new_social_magazine_excerpt_more');
 
-function social_magazine_footer() {
-	
-	esc_attr_e('built with', 'social-magazine' ); ?> <a href="<?php echo esc_url('https://www.themesmatic.com/social-magazine'); ?>" target="_blank" title="<?php esc_attr_e('Social Magazine', 'social-magazine' ); ?>"><?php esc_attr_e('Social Magazine', 'social-magazine' ); ?></a> <?php esc_attr_e('and', 'social-magazine' ); ?> <a href="<?php echo esc_url('https://wordpress.org/'); ?>" title="<?php esc_attr_e('WordPress', 'social-magazine' ); ?>"><?php esc_attr_e('WordPress', 'social-magazine' ); ?></a> 
+//Showing lists on frontpage
 
-<?php }
+function blk2121_listes_accueil(){
+	$categories = get_categories( array(
+		'orderby' => 'name',
+		'order'   => 'asc'
+	) );
+	shuffle( $categories );
+	$categories = array_slice( $categories, 0, 10 );
+
+	foreach( $categories as $category ) {
+		$category_link = sprintf( 
+			'<a href="%1$s" class="post blog-block blog-block-accueil" alt="%2$s">%3$s</a>',
+			esc_url( get_category_link( $category->term_id ) ),
+			esc_attr( sprintf( __( 'View all posts in %s', 'textdomain' ), $category->name ) ),
+			esc_html( $category->name )
+		);?>
+		<?php
+		echo sprintf($category_link );
+	} 
+}

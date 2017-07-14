@@ -49,7 +49,7 @@ defined('ABSPATH') or die("please don't runs scripts");
 		<p><small><?php bloginfo('description'); ?></small></p>
 		</div><!--/ col-md-4 bottom-title -->
 		<div class="col-xs-12 col-md-4 footer-attr">
-			<p class="footer-tml"><?php echo social_magazine_footer(); ?></p>
+			Développé dans la Ville de Québec
 		</div><!-- footer-attr -->
 	</footer><!-- /footer container -->
 </div><!-- /wrap -->

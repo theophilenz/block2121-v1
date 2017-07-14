@@ -42,6 +42,19 @@
     margin: 5% 0; 
  }
 
+.blog-block-accueil{
+    background: #1e73be;
+    color: #fff;
+    font-size: 2em;
+    padding: 2%;
+    
+}
+
+.blog-block-accueil:hover{
+    background: #fff;
+    color: #1e73be;
+    text-decoration: none;
+}
 /*
     Fiche produit
 */
@@ -96,15 +109,19 @@
     color: white;
 }
 
-.bouton-like-page-categorie{
+.lien-article-categorie,
+.lien-article-recherche{
+    display: inline-block;
+}
+/*.bouton-like-page-categorie{
     font-size: 1.2em;
     display: inline-block;
     margin-left: 2%;
-    background-color: #0353A4;
-}
+    background-color: #002244;
+}*/
 
 .post-likes{
-    background-color: #0353a4;
+    background-color: #002244;
     color: #fff;
     margin-left: 2%;
     font-size: 1.2em;
@@ -112,4 +129,14 @@
     padding: 5px 10px;
     width: 60px;
     display: inline-block;
+}
+
+.titre .panel-heading{
+    background-color: #002244;
+}
+
+.titre .panel-heading h3,
+.titre .panel-heading h2,
+.titre .panel-heading h1{
+    color: #fff;
 }

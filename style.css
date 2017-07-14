@@ -289,8 +289,7 @@ a:hover, footer a {
 	text-decoration: none;
 }
 .social-magazine-one-post-link {
-	padding-bottom: 15px;
-	border-bottom: 1px solid #999;
+	padding-bottom: 20px;
 }
 .excerpt-more {
 	margin-top: 20px;
@@ -329,7 +328,6 @@ a:hover, footer a {
 	margin-right: -12px;
 	background-color: #0080ff;
 }
-.social-magazine-one-post-link,
 .post-date{
 	display: inline-block;
 }
