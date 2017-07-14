@@ -1,0 +1,353 @@
+# Translation of Themes - Social Magazine in French (France)
+# This file is distributed under the same license as the Themes - Social Magazine package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2017-07-14 00:37-0400\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Poedit 2.0.2\n"
+"Language: fr\n"
+"Project-Id-Version: Themes - Social Magazine\n"
+"POT-Creation-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+
+#. Description of the plugin/theme
+msgid "Social theme designed for WordPress has a fixed navbar, fully responsive for all devices with responsive navigation and Translation Ready into any language. Front Page displays masonry style magazine blog posts, social icons and custom Logo Upload. Accent Color can be changed to any color. 4 widget areas, Search Engine Friendly, BuddyPress ready, utilizes Bootstrap, W3C Validated Markup and clean typography."
+msgstr ""
+
+#: single.php:24 single.php:25
+msgid "%title"
+msgstr ""
+
+#: single.php:23
+msgid "Other Articles"
+msgstr "Autres Articles"
+
+#: sidebar.php:40
+msgid "Archives"
+msgstr "Archives"
+
+#: sidebar.php:35
+msgid "Pages"
+msgstr "Pages"
+
+#: sidebar.php:30
+msgid "Tag Cloud"
+msgstr "Nuage d’étiquettes"
+
+#: searchform.php:12
+msgid "Go"
+msgstr "Recherche"
+
+#: searchform.php:12
+msgid "Search"
+msgstr "Recherche"
+
+#: search.php:17
+msgid "These are the search results for: "
+msgstr "Voici les résultats de recherche pour: "
+
+#: search.php:15
+msgid "Search Results for "
+msgstr "Résultats de la recherche pour "
+
+#: post-meta.php:83
+msgid "This is error 404"
+msgstr "Ceci est une erreur 404"
+
+#: post-meta.php:16 post-meta.php:27 post-meta.php:38 post-meta.php:49
+#: post-meta.php:64 post-meta.php:75
+msgid "Edit Post"
+msgstr "Modifier l&rsquo;article"
+
+#: post-meta.php:11 post-meta.php:25 post-meta.php:36 post-meta.php:47
+#: post-meta.php:62 post-meta.php:73
+msgid "by"
+msgstr "de"
+
+#: includes/wp_bootstrap_navwalker.php:197
+msgid "Add a menu"
+msgstr "Ajouter un menu"
+
+#: includes/social_magazine_comments.php:45
+msgid "Reply to "
+msgstr "Répondre "
+
+#: includes/social_magazine_comments.php:41
+msgid "Edit"
+msgstr "Modifier"
+
+#: includes/social_magazine_comments.php:36
+msgid "Comment is awaiting moderation."
+msgstr "Commentaire en attente de modération."
+
+#. translators: 1: date, 2: time
+#: includes/social_magazine_comments.php:30
+msgid "%1$s at %2$s"
+msgstr "%1$s à %2$s"
+
+#: includes/social_magazine_comments.php:24
+msgid "Post author"
+msgstr "Auteur de l&rsquo;article"
+
+#: includes/social_magazine_comments.php:10
+msgid "(Edit)"
+msgstr "(Modifier)"
+
+#: includes/social_magazine_comments.php:10
+msgid "Pingback:"
+msgstr "Ping&nbsp;:"
+
+#: includes/social-customizer.php:147
+msgid "Button Text"
+msgstr "Bouton texte"
+
+#: includes/social-customizer.php:142
+msgid "button text"
+msgstr "bouton texte"
+
+#: includes/social-customizer.php:134
+msgid "Button Url (http://)"
+msgstr ""
+
+#: includes/social-customizer.php:129
+msgid "url of button"
+msgstr ""
+
+#: includes/social-customizer.php:121
+msgid "Second Paragraph"
+msgstr ""
+
+#: includes/social-customizer.php:116
+msgid "Add a second paragraph"
+msgstr ""
+
+#: includes/social-customizer.php:108
+msgid "Main Paragraph"
+msgstr ""
+
+#: includes/social-customizer.php:103
+msgid "Add an intro paragraph"
+msgstr ""
+
+#: includes/social-customizer.php:91
+msgid "Accent Color"
+msgstr "Couleur du Contraste"
+
+#: includes/social-customizer.php:71
+msgid "Social Icons"
+msgstr "Icônes sociales"
+
+#: includes/social-customizer.php:67
+msgid "Social Magazine Options"
+msgstr ""
+
+#: header.php:26
+msgid "Toggle navigation"
+msgstr "Afficher/masquer la navigation"
+
+#: functions.php:183
+msgid "WordPress"
+msgstr "WordPress"
+
+#: functions.php:183
+msgid "and"
+msgstr "et"
+
+#. Theme Name of the plugin/theme
+#: functions.php:183
+msgid "Social Magazine"
+msgstr ""
+
+#: functions.php:183
+msgid "built with"
+msgstr ""
+
+#: functions.php:177
+msgid "Continue Reading"
+msgstr "Continuer à lire"
+
+#: functions.php:160
+msgid "Footer widget appears on bottom right."
+msgstr ""
+
+#: functions.php:158
+msgid "Footer Widget Bottom Right"
+msgstr ""
+
+#: functions.php:151
+msgid "Footer widget appears in bottom center."
+msgstr ""
+
+#: functions.php:149
+msgid "Footer Widget Bottom Center"
+msgstr ""
+
+#: functions.php:142
+msgid "Footer widget appears on bottom left."
+msgstr ""
+
+#: functions.php:140
+msgid "Footer Widget Bottom Left"
+msgstr ""
+
+#: functions.php:133
+msgid "Primary sidebar appears on right."
+msgstr ""
+
+#: functions.php:131
+msgid "Primary Social Sidebar"
+msgstr ""
+
+#: functions.php:100
+msgid "Logo"
+msgstr "Logo"
+
+#: functions.php:54
+msgid "Header Menu"
+msgstr "Menu d'en-tête"
+
+#: footer.php:44
+msgid "&copy;"
+msgstr "&copy;"
+
+#: content-search.php:16 content.php:16
+msgid "Read more of this article &raquo;"
+msgstr "Lire plus;"
+
+#: content-page.php:27
+msgid "Next Image &#62;"
+msgstr "Image suivante;"
+
+#: content-page.php:26
+msgid "&#60; Previous Image"
+msgstr "Image précédente"
+
+#: content-page.php:20
+msgid "Page"
+msgstr "Page"
+
+#: content-page.php:16
+msgid "Pages:"
+msgstr "Pages&nbsp;:"
+
+#: content-none.php:15
+msgid "Your query returned no results."
+msgstr "Votre requête n'a retourné aucun résultat."
+
+#: content-none.php:14
+msgid "Results Not Found"
+msgstr "Aucun résultat trouvé"
+
+#: content-none.php:10
+msgid "There were no articles found for: "
+msgstr "Aucun article trouvé pour: "
+
+#: content-none.php:9
+msgid "No Articles Found For:"
+msgstr "Aucun article trouvé pour:"
+
+#: content-archives.php:21 content-home.php:20 content.php:20 home.php:38
+msgid "Tagged with: "
+msgstr "Tagu&#233;s avec&nbsp;: "
+
+#: content-archives.php:20 content-home.php:19 content.php:19 home.php:37
+msgid "Posted in "
+msgstr "Posté dans "
+
+#: content-archives.php:16
+msgid "Read More"
+msgstr "Lire la suite"
+
+#: comments.php:41
+msgid "Comments are now closed."
+msgstr ""
+
+#: comments.php:35
+msgid "New Comments &rarr;"
+msgstr ""
+
+#: comments.php:32
+msgid "&larr; Old Comments"
+msgstr ""
+
+#: comments.php:16
+msgid "One comment"
+msgid_plural "%s comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: category.php:15
+msgid "Category:"
+msgstr "Catégorie&nbsp;:"
+
+#: author.php:37
+msgid "No posts by this author."
+msgstr "Aucun article pour cet auteur."
+
+#: author.php:33
+msgid " & "
+msgstr ""
+
+#: author.php:33
+msgid "in"
+msgstr "dans"
+
+#: author.php:23
+msgid "Posts authored by"
+msgstr ""
+
+#: author.php:19
+msgid "Profile"
+msgstr "Profil"
+
+#: author.php:17
+msgid "Website"
+msgstr "Site web"
+
+#: author.php:15
+msgid "About"
+msgstr "A propos"
+
+#: archive.php:30 category.php:35 home.php:48 index.php:27 tag.php:29
+msgid "Next Articles &#187;"
+msgstr "Article suivant;"
+
+#: archive.php:27 category.php:32 home.php:47 index.php:24 tag.php:26
+msgid "&#8592; Previous Article"
+msgstr "Article précédent"
+
+#: archive.php:15
+msgid "Archives for"
+msgstr "Archives pour"
+
+#: 404.php:19 sidebar.php:25
+msgid "Recent Posts"
+msgstr "Articles récents"
+
+#: 404.php:18
+msgid "It appears that page doesnt exist. Try some of these latest posts or a search."
+msgstr "Il semble que cette page n'existe pas. Essayez ces articles récents ou une recherche."
+
+#: 404.php:17
+msgid "That page hasnt been created yet."
+msgstr "Cette page n'a pas encore été crée."
+
+#: 404.php:16
+msgid "404"
+msgstr "404"
+
+#. Author URI of the plugin/theme
+msgid "https://www.themesmatic.com"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "ThemesMatic"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://www.themesmatic.com/social-magazine"
+msgstr ""
