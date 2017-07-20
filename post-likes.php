@@ -5,6 +5,6 @@
 ?>
 <div class="post-likes">
 	
-<?php the_favorites_count(); ?> <i class="fa fa-thumbs-o-up" aria-hidden="true"></i>
+<i class="fa fa-caret-up" aria-hidden="true"></i><span>   <?php the_favorites_count(); ?></span>
 	
 </div><!-- /alignright post-date -->

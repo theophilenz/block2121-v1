@@ -21,17 +21,13 @@ get_header(); ?>
                         </div>
                     </div>
                 </div>
-				<div class="row">
+				<div class="row liste-produits-accueil">
 					<?php while (have_posts()) : the_post(); ?>
-					<div>
-						<div class="col-md-4">
-							<?php if ( has_post_thumbnail() ) { the_post_thumbnail( array(300, 300) ); } ?>						       
-						</div>
-						<div class="col-md-8">
-							<h4 id="post-<?php the_ID(); ?>" <?php $classes = array('align-left','social-magazine-one-post-link',); post_class( $classes ); ?>><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></h4>
-						</div>
+					<div class="produit-unique-accueil">
+                        <?php if ( has_post_thumbnail() ) { the_post_thumbnail( array(300, 300) ); } ?>						       
+                        <a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"><?php the_field("nom_court"); ?></a></h2>
 					</div>
-						<?php endwhile; ?>
+					<?php endwhile; ?>
                 </div>
                 <div class="titre">
                     <div class="panel panel-default">

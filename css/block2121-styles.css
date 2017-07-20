@@ -2,6 +2,11 @@
     Custom CSS file for Block2121 specific styles.
 */
 
+/*
+    Author: Théophile Nzungize
+    Site: Block2121.com
+    Version: 1.0.0
+*/
 
 /*
     Page d'accueil, 404 et recherche
@@ -15,6 +20,27 @@
     margin: 0 auto;
 }
 
+.liste-produits-accueil img{
+    width: 40%;
+}
+
+.liste-produits-accueil a{
+    font-size: 1.3em;
+    margin-left: 2%;
+    text-decoration: none;
+}
+
+.liste-produits-accueil{
+    padding: 2% 0;
+}
+
+.liste-produits-accueil .wp-post-image{
+    display: inline-block;
+}
+
+.produit-unique-accueil{
+    margin: 4%;
+}
 .recherche-accueil input[type=text],
 .four-oh-four-page input[type=text]{
     border: 1px solid #555555;
@@ -45,7 +71,8 @@
 .blog-block-accueil{
     background: #1e73be;
     color: #fff;
-    font-size: 2em;
+    font-size: 1.2em;
+    border-radius:1px;
     padding: 2%;
     
 }
@@ -85,16 +112,21 @@
 .compteur-favoris{
     display: inline-block;
     text-align:center;
-    width: 15%;
+    font-size: .7em;
+    width: 10%;
     padding: 1% 0;
-    margin-left: 1%;
-    border-radius: 12%;
+    border-radius: 6%;
     background-color: #f5f5f5;
-    border: 1px solid #1e73be;
+    border: 1px solid #c5c5c5;
 }
 .bouton-favoris{
     font-size: .8em;
 }
+
+.bouton-favoris i span{
+    font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
 .label-black{
     background-color:#002244;
 }
@@ -121,7 +153,7 @@
 }*/
 
 .post-likes{
-    background-color: #002244;
+    background-color: #28b62c;
     color: #fff;
     margin-left: 2%;
     font-size: 1.2em;
