@@ -41,7 +41,7 @@ defined('ABSPATH') or die("please don't runs scripts");
 	<footer class="container">
 		<div class="col-xs-12 col-md-4"> 
 		<p class="footer-copy">
-			<?php esc_attr_e('&copy;', 'social-magazine' ); ?> <?php bloginfo('name'); ?> <?php echo date( 'Y' ); ?>
+			<?php esc_attr_e('&copy;', 'social-magazine' ); ?><?php echo date( 'Y' ); ?> <?php bloginfo('name'); ?>
 		</p>
 		</div><!-- /col-md-4 -->
 		<div class="col-xs-12 col-md-4 bottom-title text-center">
