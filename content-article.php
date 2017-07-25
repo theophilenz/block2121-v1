@@ -22,7 +22,7 @@
 			<i class="fa fa-dollar" aria-hidden="true"></i><?php the_field("prix_produit"); ?>
 		</div>
 		<div class="lien-obtenir">
-			<a href="<?php the_field("lien_produit"); ?>" target="_blank" class="label label-black lien"><i class="fa fa-link" aria-hidden="true"></i>Site web officiel</a>
+			<a href="<?php the_field("lien_produit"); ?>" rel="nofollow" target="_blank" class="label label-black lien"><i class="fa fa-link" aria-hidden="true"></i>Site web officiel</a>
 		</div>
 	</div>
 	<div class="col-md-12">
@@ -36,7 +36,14 @@
 			<div class="panel panel-default liste-fiche-produit">
 			<div class="panel-heading">Specifications particulières</div>
 			<div class="panel-body">
-				<?php the_field("specifications"); ?>
+				<?php 
+				if(null!==the_field("specifications")){
+					the_field("specifications");
+				}else{
+					echo " "."Visitez le site web de ".get_field("nom_court")." pour plus d'informations";
+				}
+				?>
+				
 			</div>
 		</div>
 		</div>

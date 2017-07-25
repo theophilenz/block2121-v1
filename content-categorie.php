@@ -14,7 +14,7 @@
 	</div>
 	<div class="col-md-8">
 		<?php the_excerpt(); ?>
-			<a href="<?php the_permalink(); ?>" class="label lien bouton-lire-plus">Consulter la fiche</a>
+		<a href="<?php the_permalink(); ?>" class="label lien bouton-lire-plus">Consulter la fiche</a>
 	</div>
 	
 </div><!-- /blog-block -->

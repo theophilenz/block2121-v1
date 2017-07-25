@@ -87,9 +87,6 @@ h1{
     text-decoration: none;
 }
 
-.row{
-    padding: 0 2%;
-}
 
 /*
     Fiche produit
@@ -180,4 +177,8 @@ h1{
 .titre .panel-heading h2,
 .titre .panel-heading h1{
     color: #fff;
+}
+
+#more-button{
+    display: none;
 }
