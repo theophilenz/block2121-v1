@@ -26,11 +26,7 @@
 		</div>
 	</div>
 	<div class="col-md-12">
-		<div class="col-md-5">
-			<div class="panel panel-default liste-fiche-produit">
-			<div class="panel-heading">Apparaît dans les listes suivates</div>
-			<div class="panel-body"><?php the_category(); ?></div>
-		</div>
+		
 		</div>
 		<div class="col-md-7">
 			<div class="panel panel-default liste-fiche-produit">
@@ -40,20 +36,21 @@
 				if(null!==the_field("specifications")){
 					the_field("specifications");
 				}else{
-					echo " "."Visitez le site web de ".get_field("nom_court")." pour plus d'informations";
+					echo " "."Visitez le site web de ".get_field("nom_court")." pour plus d'informations.";
 				}
 				?>
-				
 			</div>
 		</div>
 		</div>
-		
-		
 	</div>
 	<div class="col-md-12">
-		<div class="col-md-8"></div>
 		<?php the_content(); ?>
 	</div>
+	<div class="col-md-12">
+			<div class="panel panel-default liste-fiche-produit module-listes-suivantes">
+			<div class="panel-heading">Apparaît dans les listes suivates</div>
+			<div class="panel-body"><?php the_category(); ?></div>
+		</div>
 	<div class="col-md-12">
 		<?php comments_template(); ?>
 	</div>
