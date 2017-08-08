@@ -44,13 +44,16 @@
 		</div>
 	</div>
 	<div class="col-md-12">
-		<?php the_content(); ?>
-	</div>
-	<div class="col-md-12">
+		<div class="col-md-7">
+			<?php the_content(); ?>
+		</div>
+		<div class="col-md-5">
 			<div class="panel panel-default liste-fiche-produit module-listes-suivantes">
 			<div class="panel-heading">Apparaît dans les listes suivates</div>
 			<div class="panel-body"><?php the_category(); ?></div>
 		</div>
+	</div>
+	
 	<div class="col-md-12">
 		<?php comments_template(); ?>
 	</div>
