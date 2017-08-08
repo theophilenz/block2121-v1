@@ -3,10 +3,10 @@
 <h1 id="post-<?php the_ID(); ?>" <?php post_class(); ?> title="<?php the_title_attribute(); ?>"><?php the_title(); ?></h1>
 <div class="blog-block single-page">
 
-    <div class="col-md-7">
+    <div class="col-md-6">
         <?php if ( has_post_thumbnail() ) { the_post_thumbnail(); } ?>
     </div>
-    <div class="col-md-5 panel-primary zone-details">
+    <div class="col-md-6 panel-primary zone-details">
         <div>
             <span class="bouton-favoris"><?php the_favorites_button() ?></span><span class="compteur-favoris"><?php the_favorites_count(); ?></span>
         </div>
@@ -26,7 +26,19 @@
             <div class="panel panel-default liste-fiche-produit module-listes-suivantes">
                 <div class="panel-heading">Apparaît dans les listes suivates</div>
                 <div class="panel-body">
-                    <?php the_category(); ?>
+					<div class="listes-page-produit">
+						<?php 
+							$categories = get_the_category();
+							$separator = ' ';
+							$output = '';
+							if ( ! empty( $categories ) ) {
+								foreach( $categories as $category ) {
+									$output .= '<a href="' . esc_url( get_category_link( $category->term_id ) ) . '" alt="' . esc_attr( sprintf( __( 'View all posts in %s', 'textdomain' ), $category->name ) ) . '"><i class="fa fa-list" aria-hidden="true"></i>  ' . esc_html( $category->name ) . '</a>' . $separator;
+								}
+								echo trim( $output, $separator );
+							}
+						?>
+					</div>
                 </div>
             </div>
     </div>
