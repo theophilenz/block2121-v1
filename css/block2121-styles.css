@@ -189,3 +189,14 @@ h1{
     list-style-type: none;
     padding-left:0;
 }
+
+.listes-page-produit a{
+	display: inline-block;
+	margin: 1%;
+	padding: 7px;
+	border-radius: 2%;
+	border: 1px solid #eceeef;
+}
+.listes-page-produit a:hover{
+	text-decoration: none;
+}

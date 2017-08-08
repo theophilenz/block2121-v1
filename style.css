@@ -2,7 +2,7 @@
 Theme Name: Block2121
 Author: Théophile Nzungize
 Author URI: http://block2121.com
-Version: 1.0.6
+Version: 1.0.7
 License: GNU General Public License v2.0
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: social-magazine
@@ -153,16 +153,6 @@ li.page_item_has_children {
 	padding-left: 0;
 }
 
-.listes-page-produit a{
-	display: inline-block;
-	margin: 1%;
-	padding: 7px;
-	border-radius: 2%;
-	border: 1px solid #eceeef;
-}
-.listes-page-produit a:hover{
-	text-decoration: none;
-}
 .sidebar ul ul li,
 .blog-block ul ul li {
 	list-style-type: lower-latin;
