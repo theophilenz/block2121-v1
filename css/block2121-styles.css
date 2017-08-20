@@ -200,3 +200,11 @@ h1{
 .listes-page-produit a:hover{
 	text-decoration: none;
 }
+
+.zone-ratings{
+    display: inline-block;
+}
+
+/*.zone-ratings .kk-star-ratings .kksr-legend{
+    display: none !important;
+}*/

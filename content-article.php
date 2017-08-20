@@ -7,8 +7,8 @@
         <?php if ( has_post_thumbnail() ) { the_post_thumbnail(); } ?>
     </div>
     <div class="col-md-6 panel-primary zone-details">
-        <div>
-            <span class="bouton-favoris"><?php the_favorites_button() ?></span><span class="compteur-favoris"><?php the_favorites_count(); ?></span>
+        <div class="zone-ratings">
+            <?php if(function_exists("kk_star_ratings")) : echo kk_star_ratings($pid); endif; ?>
         </div>
         <div class="label label-black">
             <i class="fa fa-laptop" aria-hidden="true"></i>
