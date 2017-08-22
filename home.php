@@ -13,7 +13,7 @@ get_header(); ?>
         <?php get_template_part('content', 'intro'); ?>
             <div class="col-md-8 blog">
 				<div class="titre">
-                    <div class="panel panel-primary">
+                    <div class="panel panel-default">
                         <div class="panel-heading">
                             <h3>Produits récemments ajoutés</h3></div>
                         <div class="panel-body">

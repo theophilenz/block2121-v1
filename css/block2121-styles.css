@@ -45,16 +45,16 @@ h1{
 .produit-unique-accueil{
     margin: 4%;
 }
-.recherche-accueil input[type=text],
-.four-oh-four-page input[type=text]{
-    border: 1px solid #555555;
-}
 
 .recherche-accueil .btn-default,
 .four-oh-four-page .btn-default{
     background-color: #1e73be;
     color: #fff;
     font-size: 15px;
+}
+
+.four-oh-four-page li{
+    list-style: none;
 }
 @media (min-width: 768px) { 
     .recherche-accueil{
@@ -208,3 +208,6 @@ h1{
 /*.zone-ratings .kk-star-ratings .kksr-legend{
     display: none !important;
 }*/
+
+
+/* Styles overrite des originaux */
